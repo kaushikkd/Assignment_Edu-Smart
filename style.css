@@ -1,9 +1,9 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
 
-.overlay::after{
+.overlay::after {
     content: '';
     top: 0;
     left: 0;
@@ -13,10 +13,30 @@ body{
     border-radius: 5px;
     background: rgba(0, 0, 0, 0.61);
 }
-.banner-text{
+
+.banner-text {
     color: white;
     z-index: 1;
 }
-.courses-text{
+
+.courses-text {
     margin-left: 20px;
+}
+
+@media (min-width: 1px) and (max-width:576px) {
+    .banner-text h3 {
+        font-size: 17px;
+    }
+
+    .banner-text p {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width:768px) {
+    .explore-text h2 {
+        font-size: 10px;
+    }
+
 }
