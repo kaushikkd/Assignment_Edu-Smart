@@ -23,20 +23,40 @@ body {
     margin-left: 20px;
 }
 
-@media (min-width: 1px) and (max-width:576px) {
-    .banner-text h3 {
-        font-size: 17px;
-    }
-
-    .banner-text p {
-        font-size: 12px;
-    }
-
+.ficon {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(54, 53, 53);
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
 }
 
-@media (min-width: 577px) and (max-width:768px) {
-    .explore-text h2 {
-        font-size: 10px;
-    }
+.ficon:hover {
+    color: white;
+}
+
+.seems {
+    text-align: center;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.btn-al {
+    position: relative;
+    margin-top: -150px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 170px;
+}
+
+.over-pro {
+    padding: 10px 0;
+
 
 }
